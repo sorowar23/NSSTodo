@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NSS Todo Test Automation Test Suite" duration-ms="20330" started-at="2019-02-21T04:13:48Z" finished-at="2019-02-21T04:14:08Z">
+    <groups>
+    </groups>
+    <test name="NSS Todo Test Cases" duration-ms="20330" started-at="2019-02-21T04:13:48Z" finished-at="2019-02-21T04:14:08Z">
+      <class name="com.nsstodo.testcases.ApiTest">
+        <test-method status="PASS" signature="getAllTaskName()[pri:0, instance:com.nsstodo.testcases.ApiTest@e25b2fe]" name="getAllTaskName" duration-ms="1159" started-at="2019-02-20T23:14:07Z" finished-at="2019-02-20T23:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllTaskName -->
+        <test-method status="PASS" signature="getCountUnassignedCategory()[pri:0, instance:com.nsstodo.testcases.ApiTest@e25b2fe]" name="getCountUnassignedCategory" duration-ms="42" started-at="2019-02-20T23:14:08Z" finished-at="2019-02-20T23:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCountUnassignedCategory -->
+        <test-method status="PASS" signature="validateNoOfTask()[pri:0, instance:com.nsstodo.testcases.ApiTest@e25b2fe]" name="validateNoOfTask" duration-ms="31" started-at="2019-02-20T23:14:08Z" finished-at="2019-02-20T23:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNoOfTask -->
+        <test-method status="PASS" signature="validatedServiceStatus()[pri:0, instance:com.nsstodo.testcases.ApiTest@e25b2fe]" name="validatedServiceStatus" duration-ms="34" started-at="2019-02-20T23:14:08Z" finished-at="2019-02-20T23:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedServiceStatus -->
+      </class> <!-- com.nsstodo.testcases.ApiTest -->
+      <class name="com.nsstodo.testcases.TodoPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Setup" is-config="true" duration-ms="4149" started-at="2019-02-20T23:13:48Z" finished-at="2019-02-20T23:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="addCategoryTest()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="addCategoryTest" duration-ms="326" started-at="2019-02-20T23:13:52Z" finished-at="2019-02-20T23:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Teardown" is-config="true" duration-ms="656" started-at="2019-02-20T23:13:52Z" finished-at="2019-02-20T23:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Setup" is-config="true" duration-ms="3492" started-at="2019-02-20T23:13:53Z" finished-at="2019-02-20T23:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="addTodoTest()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="addTodoTest" duration-ms="778" started-at="2019-02-20T23:13:57Z" finished-at="2019-02-20T23:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTodoTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Teardown" is-config="true" duration-ms="646" started-at="2019-02-20T23:13:57Z" finished-at="2019-02-20T23:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Setup" is-config="true" duration-ms="3525" started-at="2019-02-20T23:13:58Z" finished-at="2019-02-20T23:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="modifyTodoTest()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="modifyTodoTest" duration-ms="449" started-at="2019-02-20T23:14:02Z" finished-at="2019-02-20T23:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyTodoTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Teardown" is-config="true" duration-ms="653" started-at="2019-02-20T23:14:02Z" finished-at="2019-02-20T23:14:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Setup" is-config="true" duration-ms="3505" started-at="2019-02-20T23:14:03Z" finished-at="2019-02-20T23:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="removeTodoTest()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="removeTodoTest" duration-ms="200" started-at="2019-02-20T23:14:06Z" finished-at="2019-02-20T23:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeTodoTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.nsstodo.testcases.TodoPageTest@6093dd95]" name="Teardown" is-config="true" duration-ms="648" started-at="2019-02-20T23:14:06Z" finished-at="2019-02-20T23:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.nsstodo.testcases.TodoPageTest -->
+    </test> <!-- NSS Todo Test Cases -->
+  </suite> <!-- NSS Todo Test Automation Test Suite -->
+</testng-results>

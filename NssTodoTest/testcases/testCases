@@ -1,0 +1,31 @@
+1.TestCae Name: Creating a Todo                                                  				Expected Result
+	Step1:Navigate to todo page "http://localhost/nss-todo-automation"                      Todo page sucessfully loaded.
+	Step2: Input "Front End Automation" in Task text box                                    Task text box accepted the given input
+	Step3: Select "Play" From Category Dropdown and Select Date from                        Category and date get Selected 
+	       day month and year Dropdown as 22-Apr-2019              
+	       
+	Step4: Click "Add" Button                                                                 Validated Task get added in list
+
+
+
+2.TestCae Name: Creating Category                             
+
+	Step1:Navigate to todo page "http://localhost/nss-todo-automation"                      Todo page sucessfully loaded.
+	Step2: Input "Api Testing" in Category text box                                         Category text box accepted the given input
+	Step3: Select "Yellow" from Color Dropdown                                              Color get Selected
+	Step4: Click "Add Category" Button  													Validated Category get added in Category Dropdown
+	
+	
+3.TestCae Name: Remove Task from list 
+	Step1:Navigate to todo page "http://localhost/nss-todo-automation"                      Todo page sucessfully loaded.
+	Step2: Select "Front End Automation" Checkbox 											"Front End Automation" Checkbox checked
+	Step3: Click "Remove" Button  															Validated Task get deleted from list
+
+
+	
+4.TestCae Name: Modify Task from list
+	Step1:Navigate to todo page "http://localhost/nss-todo-automation"                      Todo page sucessfully loaded.
+	Step2: Click Serial no Associate for "Front End Automation" task 						Edit page get open
+	Step3: Modify Existing task name as "Modify Front End Automation" in Task 				Task text box accepted the given input
+		   input box.
+    Step4: Click "Update" Button                                                             Validated Task Get Modified in list
